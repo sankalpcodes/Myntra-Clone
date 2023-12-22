@@ -130,34 +130,6 @@ li{
     display: none;
   }
   
-  /* Next & previous buttons 
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-    transition: 0.6s ease;
-    border-radius: 0 2px 2px 0;
-    user-select: none;
-  }
-  */
-  /* Position the "next button" to the right 
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  */
-  /* On hover, add a black background color with a little bit see-through 
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  */
-  
   
   /* Caption text */
   .text {
@@ -255,3 +227,63 @@ li{
   /* .box6{
     background-image: url("imgs/sc1-img6.webp");
   } */
+
+  .cat1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .cat1_box1{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    background-image: url('imgs/cat1-img1.webp');
+    background-size: cover;
+  }
+  .cat1_box2{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    /* margin-left: -59px; */
+    background-image: url('imgs/cat1-img2.webp');
+    background-size: contain;
+  }
+  .cat1_box3{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    background-image: url('imgs/cat1-img3.webp');
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cat1_box4{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    background-image: url('imgs/cat1-img4.webp');
+    background-size: cover;
+  }
+  .cat1_box5{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    background-image: url('imgs/cat1-img5.webp');
+    background-size: cover;
+    /* margin-right: -59px; */
+  }
+  .cat1_box6{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 153px;
+    background-image: url('imgs/cat1-img6.webp');
+    background-size: cover;
+    
+  }
+ 
+  
